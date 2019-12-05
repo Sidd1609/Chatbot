@@ -1,0 +1,27 @@
+<aiml version="1.0.1" encoding="utf-8">
+
+<category>
+    <pattern>I AM *</pattern>
+    <template>Nice to meet you Mr.<set name ="username"><star/></set> </template>
+</category>
+
+<category>
+    <pattern>WHAT IS MY NAME</pattern>
+    <template>your name is <get name ="username" /></template>
+</category>
+
+<category>
+    <pattern>IN *</pattern>
+    <template>weather <star/></template>
+</category>
+<category>
+    <pattern>TELL ME A JOKE</pattern>
+    <template>joke</template>
+</category>
+
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template>wikipedia <star/></template>
+</category>
+
+</aiml>
